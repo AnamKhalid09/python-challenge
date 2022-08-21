@@ -4,7 +4,6 @@ import csv
 
 # setting path for the current file
 os.chdir(os.path.dirname(__file__))
-print("This program is running from: "+os.getcwd())
 
 # setting path for the provided csv file
 csvpath = os.path.join('Resources', 'election_data.csv')

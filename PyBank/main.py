@@ -2,9 +2,8 @@
 import os
 import csv
 
-# setting path for current file
+# Set working directory to where this Python file is
 os.chdir(os.path.dirname(__file__))
-print("This program is running from: "+os.getcwd())
 
 #  setting path for provided csv file
 csvpath = os.path.join('Resources', 'budget_data.csv')
